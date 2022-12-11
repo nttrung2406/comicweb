@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 100px;
+    background: rgb(72, 71, 71);
+    width: 100%;
+}
+
+.logo{
+    font-family: 'Megrim';
+    font-size: 30px;
+    padding: 50px;
+    margin-left: 50px;
+}
+
+.logo a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar{
+    font-family: 'poppins';
+    font-size: 20px;
+    float: right;
+    list-style: none;
+}
+
+.navbar li{
+    display: inline-block;
+}
+
+.navbar li a{
+    padding: 15px;
+}
+
+.navbar li a:hover{
+    background: rgb(56, 142, 114);
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 5px;
+    border-width: auto;
+}
+
+.carousel-item img{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 100vh;
+    filter: brightness(80%);
+}
